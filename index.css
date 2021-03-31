@@ -1,0 +1,197 @@
+*{
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name{
+    text-align: center;
+    padding: 30px 0px;
+}
+.name::after{
+    content: '';
+    height: 3.5px;
+    width: 20%;
+    background-color: red;
+    display: block;
+    margin-left: 40%;
+    border: 9999px;
+    margin-top: 10px;
+}
+.mainim img{
+    width: 70%;
+    border-radius: 9999px;
+}
+.mainb{
+    margin-left: 10%;
+    margin-top: 4%;
+    display: flex;
+}
+.descri{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+}
+.sociali{
+    width: 40px;
+    padding-right: 10px;
+    filter: invert(100%);
+}
+.social a{
+    text-decoration: none;
+    padding-left: 20px;
+}
+.social li{
+    padding: 10px 0px;
+    color: white;
+}
+.social button{
+    border: inherit;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+}
+#facebook{
+    background-color: #4267B2;
+}
+#insta{
+    background-color: #cd486b;
+}
+#whatsapp{
+    background-color: #4FCE5D;
+}
+#youtube{
+    background-color: red;
+    border: inherit;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+}
+.youtube{
+    text-align: center;
+    align-content: center;
+}
+.youtube p{
+    font-size: 20px;
+}
+.slideshow-container, .slideshow-containerm{
+    overflow: hidden;
+  }
+  .slideshow-containerm{
+    display: none;
+  }
+  
+  .slideshow-container figure{
+    width: 250%;
+    margin: 0;
+    position: relative;
+    left: 0;
+    animation: 15s slider infinite;
+  }
+  #slideri{
+    width: 300px;
+    float: left;
+    margin: 0px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  @keyframes slider {
+    0%{
+        left: 0;
+    }
+    25%{
+        left: 0;
+    }
+    30%{
+        left: -25%;
+    }
+    50%{
+        left: -25%;
+    }
+    55%{
+        left: -50%;
+    }
+    75%{
+        left: -50%;
+    }
+    80%{
+        left: -75%;
+    }
+    95%{
+        left: -75%;
+    }
+  }
+@media only screen and (max-width:986px){
+    .mainb{
+        display: block;
+    }
+    .mainim{
+        text-align: center;
+    }
+    .social{
+        text-align: center;
+    }
+    .name::after{
+        content: '';
+        height: 3.5px;
+        width: 40%;
+        background-color: red;
+        display: block;
+        margin-left: 30%;
+        border: 9999px;
+        margin-top: 10px;
+    }
+    .descri{
+        font-size: 20px;
+        text-align: center;
+    }
+    .youtube iframe{
+        width: 100%;
+        height: 35%;
+    }
+    .slideshow-container figure{
+        width: 1000%;
+        margin: 0;
+        position: relative;
+        left: 0;
+        animation: 15s slider infinite;
+      }
+      #slideri{
+        width: 270px;
+        float: left;
+        margin: 0px 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      @keyframes slider {
+        0%{
+            left: 0;
+        }
+        15%{
+            left: -100%;
+        }
+        25%{
+            left: -200%;
+        }
+        35%{
+            left: -300%;
+        }
+        45%{
+            left: -400%;
+        }
+        55%{
+            left: -500%;
+        }
+        65%{
+            left: -600%;
+        }
+        75%{
+            left: -700%;
+        }
+        85%{
+            left: -800%;
+        }
+        95%{
+            left: -1000%;
+        }
+      }
+}
